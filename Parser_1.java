@@ -152,7 +152,7 @@ public class Parser_1 {
                 break;
             }
             case '~': {
-                result |= number;
+                result -= number;
                 break;
             }
             case '*': {
