@@ -164,7 +164,7 @@ public class Parser_2 {
                 break;
             }
             case '%': {
-                result -= number;
+                result %= number;
                 break;
             }
             default: {
